@@ -1,0 +1,63 @@
+/* // YouTube */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  /* padding-bottom: 56.25%; */
+  /* height: 700px; */
+  /* margin-left: 360px; */
+ text-align: center;
+}
+.iframe-container iframe{
+  /* position: absolute;
+  top:0;
+  left: 0;
+  width: 50%;
+  height: 50%; */
+}
+#ytFrame{
+	width:560px;
+	height:315px;
+}
+
+/* download resume button */
+.btn5 {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#0d47a1;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 20%;
+}
+.btn5:hover {
+	background:linear-gradient(to bottom, #ffffff 0%,  #0d47a1 100%);
+	background-color:#ffffff;
+}
+.btn5:active {
+	position:relative;
+	top:1px;
+}
+.outer-nav>li.is-active{
+	color: #0d47a1;
+}
+@media (max-width:576px) {
+	#ytFrame{
+		width:98%;
+	}
+	.btn5{
+		width:85%
+	}
+}
+
+/* TIMELINE WORK */
